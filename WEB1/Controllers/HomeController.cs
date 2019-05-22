@@ -17,7 +17,7 @@ namespace WEB1.Controllers
                 UserCount = 15,
                 LastAcessDate = DateTime.Now
             };
-            return View(myData);
+            return View();
         }
 
         public ActionResult FAQ()
